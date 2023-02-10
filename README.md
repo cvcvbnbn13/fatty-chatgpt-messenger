@@ -1,38 +1,131 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fatty-ChatGPT-Messenger
 
-## Getting Started
+A Funny Repo using **TypeScript & React(Next.js)** , css framework **Tailwindcss**, Database **Firebase** , deploy by **Vercel**.
 
-First, run the development server:
+網站連結：[Fatty-ChatGPT-Messenger](https://fatty-chatgpt-messanger.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### 目錄
+
+- [專案簡介](#專案簡介)
+- [目錄結構說明](#目錄結構說明)
+- [第三方套件使用](#第三方套件使用)
+
+## 專案簡介
+
+```
+適逢ChatGPT熱潮，試做看看。
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 目錄結構說明
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. components
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+   - Chat
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   - ChatInput
 
-## Learn More
+   - ChatRow
 
-To learn more about Next.js, take a look at the following resources:
+   - NewChat
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   - ClientProvider
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   - SessionProvider
 
-## Deploy on Vercel
+   - Login
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   - ModelSelection
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   - SideBar
+
+   - index.js
+
+2. app
+
+   - chat
+     - [id]
+       - page.tsx
+   - head.tsx
+   - layout.tsx
+   - page.tsx
+
+3. pages
+
+- auth
+
+  - [...nextauth].ts
+
+- api
+
+  - askQuestion.ts
+
+  - getEngines.ts
+
+- \_app.tsx
+
+4. public
+
+5. styles
+
+6. libs
+
+   - chatgpt.ts
+
+   - quertApi.ts
+
+   - index.ts
+
+7. types.d.ts
+
+8. .env.local
+
+9. package.json
+
+10. tailwind.config.js
+
+11. tsconfig.json
+
+12. next.config.js
+
+13. firebase.ts
+
+14. firebaseAdmin.ts
+
+---
+
+## 第三方套件使用
+
+- heroicons
+- react-hot-toast
+  - function for notification
+- openai
+- react-select
+  - custom selectBar
+- react-firebase-hooks
+- swr
+
+---
+
+## 🚀 如何執行
+
+### Dev Server Guide
+
+1. Clone the project from [Fatty-ChatGPT-Messenger](https://github.com/cvcvbnbn13/fatty-chatgpt-messenger)
+   .
+2. Move the root path in project folder.
+3. Run `npm i` or `npm install` to install node_modules.
+4. The default server is on `localhost:3000`, please check you don't have any server on it.
+5. Run `npm run dev` to start dev server.
+
+Steps
+
+```git bash
+git clone https://github.com/cvcvbnbn13/fatty-chatgpt-messenger
+cd fatty-chatgpt-messenger
+npm install && npm audit fix
+npm run dev
+```
+
++-
