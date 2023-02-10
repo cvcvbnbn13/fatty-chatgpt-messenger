@@ -14,6 +14,10 @@ A Funny Repo using **TypeScript & React(Next.js)** , css framework **Tailwindcss
 
 ```
 適逢ChatGPT熱潮，試做看看。
+
+由於ChatGPT對中文支援不高，
+中文提問無法回答或是回答時間過長都是極有可能發生，
+建議以英文提問。
 ```
 
 ---
