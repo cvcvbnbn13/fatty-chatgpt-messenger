@@ -34,8 +34,7 @@ export default async function handler(
     user: {
       _id: 'ChatGPT',
       name: 'ChatGPT',
-      avatar:
-        'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/f5f9c186305e769c7ae49bd7ed601aa4~c5_720x720.jpeg?x-expires=1676106000&x-signature=HoZkULEEFRvpPti8Ly8Pd7ghg6I%3D',
+      avatar: require('../../assets/images/chatgpt-icons.svg'),
     },
   }
 
